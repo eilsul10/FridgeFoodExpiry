@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import FoodInput from './components/FoodInput';
+import List from './components/List';
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       </header>
 
       <FoodInput></FoodInput>
+      <List></List>
     </div>
   );
 }
